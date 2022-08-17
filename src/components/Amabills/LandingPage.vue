@@ -11,7 +11,7 @@
                     <a href=""><img class="lightdark" src="./image/lightdarkmode.svg" alt=""> </a>
 
                     <a data-bs-toggle="offcanvas" href="#offcanvasExample" aria-controls="offcanvasExample">
-                        <img class="offcan" src="./image/Frame 36922.svg" alt="">
+                        <img class="offcan" src="./image/Frame-36922.svg" alt="">
                     </a>
                     <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
                         aria-labelledby="offcanvasExampleLabel" style="width: 100%;">
@@ -243,7 +243,7 @@
                         </div>
                         <div class="col-sm-6">
                             <div class="nextimg">
-                                <img style="width: 35%;" src="./image/Vectary texture.svg" alt="">
+                                <img style="width: 35%;" src="./image/Vectary-texture.svg" alt="">
                             </div>
                         </div>
                     </div>
@@ -279,7 +279,7 @@
                         </div>
                         <div class="col-sm-6">
                             <div class="nextimg">
-                                <img src="./image/world 1.svg" alt="">
+                                <img src="./image/world-1.svg" alt="">
                             </div>
                         </div>
                     </div>
