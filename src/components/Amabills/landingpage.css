@@ -178,6 +178,7 @@
     letter-spacing: 0em;
     text-align: left;
     color: #F4EEEB;
+    padding-right: 20px;
 }
 
 
@@ -189,6 +190,7 @@
     letter-spacing: 0em;
     text-align: left;
     color: #FFFFFF;
+
 }
 
 .nextcarousel .nexttext2 p {
@@ -338,12 +340,18 @@
     line-height: 25px;
     letter-spacing: 0em;
     text-align: left;
-    margin-top: 4rem;
+    margin-top: 5rem;
+}
+
+.pro-info {
+    display: flex;
+    flex-direction: row;
 }
 
 .footerbottom .product {
     margin-right: 15px;
 }
+
 
 .footerbottom a {
     text-decoration: none;
@@ -359,6 +367,11 @@
 .footerbottom .infomation {
     margin-left: 15px;
     margin-right: 10px;
+}
+
+.say-location {
+    display: flex;
+    flex-direction: row;
 }
 
 .footerbottom .say {
@@ -650,7 +663,7 @@
 
     .contact .contactright {
         font-size: 17px;
-        margin-left: 40px;
+        margin-left: 30px;
         padding-left: 5px;
         width: 150px;
     }
@@ -660,8 +673,19 @@
     }
 
     .footerbottom {
+        margin-top: 3rem;
         padding: 0%;
         margin-left: 10px;
+    }
+
+    .footerbottom p {
+        margin-top: 0%;
+        margin-right: 0%;
+    }
+
+    .footerbottom .infomation {
+        margin-left: 0%;
+        margin-right: 0%;
     }
 
     .vl {
@@ -677,7 +701,30 @@
     }
 
     .button-right svg {
-        width: 60px;
-        height: 60px;
+        width: 50px;
+        height: 50px;
+        margin-right: 5px;
+    }
+
+    .pro-info {
+        flex-direction: column;
+    }
+
+    .say-location {
+        flex-direction: column;
+    }
+
+    .say {
+        margin-right: 0%;
+    }
+
+    .location {
+        margin-right: 0%;
+        margin-left: 0%;
+    }
+
+    .copyright {
+        margin-left: 0%;
+        margin-right: 0%;
     }
 }

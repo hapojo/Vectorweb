@@ -186,7 +186,7 @@
                         </div>
                         <div class="col-sm-5">
                             <div class="nextbody">
-                                <div class="nexttext2">
+                                <div class="nexttext2" style="padding-left: 20px;">
                                     <h5>How we started</h5>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
                                         etiam eu in eget id nulla id dignissim. Volutpat risus non, id tellus senectus
@@ -356,14 +356,14 @@
             <div class="footerbottom" style="max-width: 1740px;">
                 <div class="row g-0">
                     <div class="col-md-4">
-                        <div class="pro-info d-flex">
+                        <div class="pro-info ">
                             <div class="product">
                                 <h5>OUR PRODUCT</h5>
                                 <a href="">360 Corporation</a> <br>
                                 <a href="">Filling Station Managements</a> <br>
                                 <a href="">What Next</a>
                             </div>
-                            <div class="infomation d-block">
+                            <div class="infomation">
                                 <h5>INFORMATION</h5>
                                 <a href="">About Us</a> <br>
                                 <a href="">Culture</a> <br>
@@ -377,7 +377,7 @@
                         <!-- <img src="..." class="img-fluid rounded-start" alt="..."> -->
                     </div>
                     <div class="col-md-8">
-                        <div class="say-location d-flex">
+                        <div class="say-location">
                             <div class="say">
                                 <h5>SAY HELLO</h5>
                                 <p>Amabills@gmail.com</p>
