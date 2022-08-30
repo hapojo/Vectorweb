@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Raleway:wght@200;400&display=swap');
 
 .navbarbody {
-    background-color: #373737 !important;
+    background-color: var(--faded-whitex) !important;
 }
 
 .logo {
@@ -35,10 +35,11 @@
 
 .lightdark {
     margin-right: 40px;
+    color: var(--cancle-btn);
 }
 
 .body {
-    background-color: #373737 !important;
+    background-color: var(--faded-whitex) !important;
     width: 100%;
     padding-left: 10rem;
     padding-right: 4rem;
@@ -50,6 +51,7 @@
 
 .Forging {
     margin-top: 0;
+    color: var(--faded-white);
 }
 
 .learnmore {
@@ -75,7 +77,7 @@
     line-height: 60px;
     letter-spacing: -0.005em;
     text-align: left;
-    color: #FCFCFC;
+    color: var(--faded-white);
 }
 
 .body p {
@@ -85,7 +87,7 @@
     line-height: 24px;
     letter-spacing: -0.005em;
     text-align: left;
-    color: #FFFFFF;
+    color: var(--faded-white);
 
 }
 
@@ -95,14 +97,16 @@
 
 /* what we do */
 .whatwedo {
-    background-color: #37373766 !important;
-    background: url('./image/Frame-36946.png');
+    background-color: var(--faded-whitex) !important;
+    background-image: url('./image/digit.png');
+    opacity: var(--img-opa);
     background-repeat: no-repeat;
     background-size: 100% 645px;
     padding-top: 5px;
     padding-right: 7rem;
     padding-bottom: 7rem;
 }
+
 
 .whatwedotext {
     margin-top: 100px;
@@ -136,7 +140,7 @@
     line-height: 60px;
     letter-spacing: -0.005em;
     text-align: left;
-    color: #FFFFFF;
+    color: var(--black);
 }
 
 .whatwedo p {
@@ -146,7 +150,7 @@
     line-height: 28px;
     letter-spacing: -0.005em;
     text-align: left;
-    color: #FFFFFF;
+    color: var(--black);
     margin-top: 5px;
     margin-bottom: 30px;
 
@@ -159,11 +163,11 @@
     padding-left: 12rem;
     padding-right: 4rem;
     padding-bottom: 5rem;
-    background: #3C3C3C;
+    background: var(--faded-whitex);
 }
 
 .nextcarousel .project {
-    color: #F4EEEB;
+    color: var(--faded-white);
     font-family: 'Nunito';
     font-size: 40px;
     margin-bottom: 15px;
@@ -177,7 +181,7 @@
     line-height: 130px;
     letter-spacing: 0em;
     text-align: left;
-    color: #F4EEEB;
+    color: var(--faded-white);
     padding-right: 20px;
 }
 
@@ -189,7 +193,7 @@
     line-height: 87px;
     letter-spacing: 0em;
     text-align: left;
-    color: #FFFFFF;
+    color: var(--faded-white);
 
 }
 
@@ -200,7 +204,7 @@
     line-height: 30px;
     letter-spacing: -0.005em;
     text-align: left;
-    color: #FFFFFF;
+    color: var(--faded-white);
 }
 
 .nextcarousel .nextimg img {
@@ -259,7 +263,7 @@
     line-height: 60px;
     letter-spacing: -0.005em;
     text-align: left;
-    color: #FFFFFF;
+    color: var(--faded-white);
 }
 
 .culture p {
@@ -269,18 +273,18 @@
     line-height: 28px;
     letter-spacing: -0.005em;
     text-align: left;
-    color: #FFFFFF;
+    color: var(--faded-white);
     margin-top: 5px;
     margin-bottom: 30px;
 }
 
 /* footer */
 .footer {
-    background: #333333;
+    background: var(--faded-whitex);
 }
 
 .contact {
-    background: #333333;
+    background: var(--faded-whitex);
     padding-left: 10rem;
     /* padding-top: 10px; */
 }
@@ -290,11 +294,11 @@
 }
 
 .footer hr {
-    color: #FFFFFF;
+    color: var(--faded-white);
 }
 
 .contact span {
-    color: #FCFCFC;
+    color: var(--faded-white);
     font-family: 'Nunito';
     font-size: 30px;
     font-weight: 520;
@@ -311,7 +315,7 @@
     padding-left: 30px;
     border: 2px solid #F36F2E;
     background-color: #F36F2E;
-    height: 95px;
+    height: 85px;
     width: 450px;
 }
 
@@ -361,7 +365,7 @@
     line-height: 35px;
     letter-spacing: 0em;
     text-align: left;
-    color: #FFFFFF;
+    color: var(--faded-white);
 }
 
 .footerbottom .infomation {
@@ -395,13 +399,13 @@
     line-height: 20px;
     letter-spacing: 0em;
     text-align: left;
-    color: #FFFFFF;
+    color: var(--faded-white);
     margin-top: 15px;
 
 }
 
 .vl {
-    border-left: 1px solid #FFFFFF;
+    border-left: 1px solid var(--faded-white);
     height: 460px;
     margin-left: 40px;
 }
@@ -422,7 +426,7 @@
 .right-pane {
     width: 100%;
     height: 100%;
-    background-color: #373737;
+    background-color: var(--faded-whitex);
 }
 
 .top-pane {
@@ -431,7 +435,7 @@
     padding-top: 5.5rem;
     padding-left: 0.5rem;
     padding-bottom: 7rem;
-    background: #EBEBEB;
+    background: var(--faded-white);
 }
 
 .bottom-pane {
@@ -446,8 +450,12 @@
     /* position: fixed; */
 }
 
-.top-pane svg {
+.top-pane img {
     margin-bottom: 2rem;
+}
+
+.logochange {
+    margin-left: 20px;
 }
 
 .welcome h5 {
@@ -458,7 +466,7 @@
     left: 0px;
     top: 102px;
     border-radius: nullpx;
-    color: #FCFCFC;
+    color: #FFFFFF;
     font-family: 'Nunito';
     font-size: 18px;
     font-weight: 300;
@@ -470,7 +478,7 @@
     transform: rotate(-90deg);
     width: 60px;
     margin-left: 20px;
-    color: #FCFCFC;
+    color: var(--faded-white);
     border: 1px solid #FCFCFC;
     margin-bottom: 40px;
 }
@@ -508,7 +516,7 @@
     left: 0px;
     top: 102px;
     border-radius: nullpx;
-    color: #FCFCFC;
+    color: var(--faded-white);
     font-family: 'Nunito';
     font-size: 20px;
     font-weight: 300;
@@ -522,9 +530,9 @@
 }
 
 .right-bottom-pane hr {
-    color: #FFFFFF;
+    color: var(--faded-white);
     width: 70px;
-    border: 1px solid #FFFFFF;
+    border: 1px solid var(--faded-white);
 }
 
 .right-bottom-pane a {
@@ -535,11 +543,15 @@
     line-height: 90px;
     letter-spacing: 0em;
     text-align: left;
-    color: #FFFFFF;
+    color: var(--faded-white);
 }
 
 .right-pane .button-right {
     width: 10%;
+}
+
+.button-right svg {
+    color: var(--faded-white);
 }
 
 @media (max-width: 991px) {
@@ -700,10 +712,10 @@
         font-size: 40px;
     }
 
-    .button-right svg {
-        width: 50px;
-        height: 50px;
-        margin-right: 5px;
+    .button-right img {
+        width: 45px;
+        height: 45px;
+        margin-right: 10px;
     }
 
     .pro-info {
