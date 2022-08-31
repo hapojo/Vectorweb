@@ -47,10 +47,14 @@
                                 </div>
                                 <div class="right-bottom-pane">
                                     <hr>
-                                    <a href="">Home</a> <br>
+                                    <a href="/">Home</a>
+                                    <div class="indicatorHome"></div> <br>
                                     <a href="">About us</a> <br>
+                                    <div class="indicatorHome"></div>
                                     <a href="">Product</a> <br>
+                                    <div class="indicatorHome"></div>
                                     <a href="">Blog</a>
+                                    <div class="indicatorHome"></div>
                                     <hr>
                                 </div>
                                 <div class="button-right">

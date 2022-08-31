@@ -546,6 +546,26 @@
     color: var(--faded-white);
 }
 
+.right-bottom-pane a:hover {
+    color: var(--faded-white);
+}
+
+.right-bottom-pane .indicatorHome {
+    /* display: none; */
+    position: absolute;
+    width: 8.5rem;
+    height: 1.2rem;
+    opacity: 0;
+    background-color: #F36F2E;
+    margin-top: -3rem;
+    transition: width ease-out 0.2s;
+}
+
+.right-bottom-pane .indicatorHome:hover {
+    width: 15rem;
+    opacity: 1;
+}
+
 .right-pane .button-right {
     width: 10%;
 }
